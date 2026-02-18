@@ -1,14 +1,16 @@
 # My-first-c-program-
-#include <iostream>
-using namespace std;
+#include using namespace std ;
 
-int main() {
-    int num1, num2;
-    cout << "Mobile Addition\n";
-    cout << "Enter first number: ";
-    cin >> num1;
-    cout << "Enter second number: ";
-    cin >> num2;
-    cout << "Result: " << (num1 + num2) << endl;
-    return 0;
+int main () {
+
+int a,b,c ; cout<<"enter first number:" ; cin>> a ;
+
+cout<<"enter second number:" ; cin>> b ;
+
+c=a+b ;
+
+cout<<"the sum of"<< a <<"and"<< b <<"is"<< c << endl ;
+
+return 0 ;
+
 }

@@ -1,19 +1,19 @@
 # My-first-c-program-
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main() {
-    int first_number, second_number, sum;
-    
-    // Asking for user input
-    cout << "Enter two integers: ";
-    cin >> first_number >> second_number;
 
-    // Carrying out the addition
-    sum = first_number + second_number;
+int a,b,c ; cout<<"enter first number:"; 
+ cin>> a;
 
-    // Displaying the result
-    cout << first_number << " + " << second_number << " = " << sum;
+cout<<"enter second number:";
+ cin>> b;
 
-    return 0;
+c=a+b;
+
+cout<<"the sum of"<< a <<"and"<<b<<"is"<< c << endl;
+
+return 0;
+
 }
